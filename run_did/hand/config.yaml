@@ -1,0 +1,21 @@
+did_settings:
+  group_var: "schlid"
+  time_var: "file_sy"
+  treatment_var: "hs_rp_any_ever"
+  
+did_controls_no_cohort:
+  - esl_indicator
+  - homeless_indicator
+  - frlunch_indicator
+  - gender_female
+  - race_asian 
+  - race_white 
+  - race_black 
+  - race_hispanic 
+  
+outcomes:
+  - oss_days
+  
+outcome_names_for_plot:
+  oss_days: "Out-of-School Suspension Days"
+

@@ -1,0 +1,35 @@
+# Subfolders with data
+**/input
+**/output
+**/data
+
+# Data file extensions
+**.csv
+**.dta
+**.xlsx
+**.xls
+**.rds
+**.sas7bdat
+**.feather
+**.log
+**.parquet
+
+# Output file extensions
+**.pdf
+**.docx
+**.html
+**.log
+**.gph
+# **.png
+**.txt
+**.tex
+**.sh
+**.out
+
+.Rproj.user
+.ipynb_checkpoints/*
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints*
+*.ipynb
+*__pycache__

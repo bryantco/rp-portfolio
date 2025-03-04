@@ -1,0 +1,19 @@
+features_eighth_grade:
+  - oss_days
+  - arrests_n
+  - gpa 
+  - present_days 
+features_for_rf:
+  - oss_days_8thgrd # _8thgrd features generated in generate_features.py
+  - arrests_n_8thgrd
+  - gpa_8thgrd 
+  - present_days_8thgrd
+  # exogenous covariates that should not be contaminated by treatment
+  - gender_female
+  - race_asian 
+  - race_white
+  - race_black
+  - race_hispanic
+  - esl_indicator 
+  - homeless_indicator
+  - frlunch_indicator
