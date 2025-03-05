@@ -27,4 +27,12 @@ of the intervention on out-of-school suspension days.
 the difference-in-differences estimator. A figure from this report is reproduced below.
 
 
-![](https://github.com/bryantco/rp-portfolio/blob/main/_assets/oss_days_q4.png){width=80%}
+![](https://github.com/bryantco/rp-portfolio/blob/main/_assets/oss_days_q4.png)
+
+# Setup Instructions
+
+In your terminal:
+
+1. Create the `conda` environment: `conda create -f disruption_env.yaml`
+
+2. Run all tasks via the main `makefile`: `make all`
