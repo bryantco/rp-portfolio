@@ -20,11 +20,11 @@ student-year level dataset from 2009 to 2019. This simulated data is used in all
 (race, gender, etc.) to predict out-of-school suspensions for all students in 2013 (the year prior
 to the education intervention).
 
-3. `run_did`: runs the difference-in-differences estimator of Chaisemartin and d'Haultfoueille [2024](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3731856) to estimate the causal effect
+3. `run_did`: runs the difference-in-differences estimator of Chaisemartin and d'Haultfoueille [(2024)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3731856) to estimate the causal effect
 of the intervention on out-of-school suspension days.
 
 4. `generate_report`: produces a pdf report that summarizes the estimation results from
 the difference-in-differences estimator. A figure from this report is reproduced below.
 
 
-* image goes here * 
+![](https://github.com/bryantco/rp-portfolio/blob/main/_assets/oss_days_q4.png){width=80%}
