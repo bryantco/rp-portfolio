@@ -2,7 +2,8 @@ if (interactive()) {
   setwd(gsub("src(.*)?", "", rstudioapi::getSourceEditorContext()$path)) 
 } 
 
-pacman::p_load(argparse, quarto)
+library(argparse)
+library(quarto)
 
 source("../utils/utils.R")
 

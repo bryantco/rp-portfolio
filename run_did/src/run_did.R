@@ -17,18 +17,16 @@ if (!is_matlib_installed) {
   )  
 }
 
-pacman::p_load(
-  argparse,
-  arrow,
-  tidytable,
-  DIDmultiplegtDYN,
-  readr,
-  stringr,
-  assertr,
-  ggplot2,
-  purrr,
-  tibble
-)
+library(argparse)
+library(arrow)
+library(tidytable)
+library(DIDmultiplegtDYN)
+library(readr)
+library(stringr)
+library(assertr)
+library(ggplot2)
+library(purrr)
+library(tibble)
 
 source("../utils/utils.R")
 

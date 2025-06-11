@@ -10,7 +10,7 @@ report_pdf = $(CURRENT_DIR)/report.pdf
 all: $(report_pdf)
 
 $(report_pdf): $(report_qmd) $(code_render_report)
-	/opt/R/4.1.3/bin/Rscript $(code_render_report) \
+	Rscript $(code_render_report) \
 		--report_qmd=$(report_qmd)
 		
 clean:

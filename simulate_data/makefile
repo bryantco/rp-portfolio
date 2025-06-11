@@ -12,7 +12,7 @@ all: $(df_es)
 
 $(df_es): $(code_simulate_data)
 	mkdir -p $(output_dir)
-	/opt/R/4.1.3/bin/Rscript $(code_simulate_data) \
+	Rscript $(code_simulate_data) \
 		--df_hs=$(df_hs) \
 		--df_es=$(df_es) \
 		--output_dir=$(output_dir)

@@ -2,7 +2,12 @@ if (interactive()) {
   setwd(gsub("src(.*)?", "", rstudioapi::getSourceEditorContext()$path)) 
 } 
 
-pacman::p_load(argparse, tidytable, tibble, tictoc, VGAM, arrow)
+library(argparse)
+library(tidytable)
+library(tibble)
+library(tictoc)
+library(VGAM)
+library(arrow)
 
 source("../utils/utils.R")
 
