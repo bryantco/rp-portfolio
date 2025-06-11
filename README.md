@@ -33,6 +33,6 @@ the difference-in-differences estimator. A figure from this report is reproduced
 
 In your terminal:
 
-1. Create the `conda` environment: `conda create -f disruption_env.yaml`
+1. Create the `conda` environment: `conda env create -f disruption_env.yaml`
 
 2. Run all tasks via the main `makefile`: `make all`
