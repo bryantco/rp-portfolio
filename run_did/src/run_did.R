@@ -3,12 +3,14 @@ if (interactive()) {
 } 
 
 # Setup ------------------------------------------------------------------------
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 
 # as of time of writing, matlib 1.0.1 is broken and won't install due to a 
 # syntax error; fetch the 0.9.8 version instead if not already installed
 is_matlib_installed = require(matlib)
 
 if (!is_matlib_installed) {
+  install.packages("car")
   matlib_0.9.8_url =  "https://cran.r-project.org/src/contrib/Archive/matlib/matlib_0.9.8.tar.gz"
   install.packages(
     matlib_0.9.8_url, 
@@ -16,6 +18,16 @@ if (!is_matlib_installed) {
     type = "source"
   )  
 }
+
+is_did_multiplegt_dyn_installed = require(DIDmultiplegtDYN)
+
+if (!is_did_multiplegt_dyn_installed) { 
+  install.packages(
+    "https://cran.r-project.org/src/contrib/DIDmultiplegtDYN_2.1.2.tar.gz", 
+    repos = NULL,
+    type = "source"
+  )
+ }
 
 library(argparse)
 library(arrow)
