@@ -22,3 +22,6 @@ dependencies:
   - r-tictoc=1.2
   - r-tidytable=0.11
   - r-VGAM=1.1
+  - r-quarto=1.5
+  - r-pacman=0.5
+  - r-snakecase=0.11

@@ -17,6 +17,7 @@ oss_days_q4 = $(CURRENT_DIR)/output/oss_days_q4.png
 all: $(oss_days_q4)
 
 $(oss_days_q4): $(code_run_did) $(df_hs_predicted_oss) $(config) $(task_utils)
+	mkdir -p $(output_dir)
 	Rscript $(code_run_did) \
 		--df_hs_predicted_oss=$(df_hs_predicted_oss) \
 		--config=$(config) \

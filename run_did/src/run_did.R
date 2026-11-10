@@ -39,6 +39,7 @@ library(assertr)
 library(ggplot2)
 library(purrr)
 library(tibble)
+library(polars)
 
 source("../utils/utils.R")
 
